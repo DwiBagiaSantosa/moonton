@@ -41,7 +41,7 @@ export default function Register() {
                         </div>
                     </div>
                     <div className="grid space-y-[14px] mt-[30px]">
-                        <Link>
+                        <Link href={route('prototype.dashboard')}>
                             <PrimaryButton>
                                 <span className="text-base font-semibold">
                                     Sign Up
