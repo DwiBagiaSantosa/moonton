@@ -21,7 +21,7 @@ class MovieTableSeeder extends Seeder
                 'slug' => 'the-batman',
                 'category' => 'Action',
                 'video_url' => 'https://www.youtube.com/watch?v=1O0y2Gc6g1Q',
-                'thumbnail' => 'https://i.ytimg.com/vi/1O0y2Gc6g1Q/maxresdefault.jpg',
+                'thumbnail' => 'https://upload.wikimedia.org/wikipedia/id/thumb/5/54/The_Batman_%28film%29_poster.jpeg/220px-The_Batman_%28film%29_poster.jpeg',
                 'rating' => 4.5,
                 'is_featured' => 1
             ],
