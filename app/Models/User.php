@@ -48,7 +48,7 @@ class User extends Authenticatable
 
     public function getIsActiveAttribute()
     {
-        if ($this->LastActiveUserSubscription) {
+        if (!$this->LastActiveUserSubscription) {
             return false;
         }
 
