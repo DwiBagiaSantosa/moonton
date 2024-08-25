@@ -6,6 +6,7 @@ use App\Http\Controllers\User\MovieController;
 use App\Http\Controllers\User\SubscriptionPlanContoller;
 
 use App\http\Controllers\Admin\MovieController as AdminMovieController;
+use App\Models\SubscriptionPlan;
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
@@ -31,6 +32,10 @@ use Inertia\Inertia;
 //         'phpVersion' => PHP_VERSION,
 //     ]);
 // });
+
+// MIDTRANS ROUTE
+
+Route::post('/midtrans/notification', [SubscriptionPlanContoller::class, 'midtransCallback']);
 
 Route::redirect('/', '/login');
 
